@@ -32,7 +32,7 @@ requirement = st.text_area(
 # Generate functional, negative and edge test cases for:
 if st.button("Submit"):
     prompt = f"""
-    Brief about Veekshitha
+    Brief about Veekshitha and she loves Praveen Poojary
     {requirement}
     """
 
