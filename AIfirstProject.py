@@ -29,10 +29,10 @@ st.title("AI Chatbot")
 requirement = st.text_area(
     "Enter Requirement/User Story"
 )
-
-if st.button("Generate Test Cases"):
+# Generate functional, negative and edge test cases for:
+if st.button("Submit"):
     prompt = f"""
-    Generate functional, negative and edge test cases for:
+    Brief about Veekshitha
     {requirement}
     """
 
